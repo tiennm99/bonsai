@@ -31,6 +31,15 @@ patreon:      { family: brand, slug: patreon }
 buymeacoffee: { family: brand, slug: buymeacoffee }
 paypal:       { family: brand, slug: paypal }
 
+# --- Music / Gaming / Design ---
+spotify:      { family: brand, slug: spotify }
+soundcloud:   { family: brand, slug: soundcloud }
+bandcamp:     { family: brand, slug: bandcamp }
+figma:        { family: brand, slug: figma }
+dribbble:     { family: brand, slug: dribbble }
+stackoverflow: { family: brand, slug: stackoverflow }
+itch:         { family: brand, slug: itchdotio }
+
 # --- UI / Utility ---
 mail:         { family: ui, slug: mail }
 globe:        { family: ui, slug: globe }
@@ -42,3 +51,6 @@ mappin:       { family: ui, slug: map-pin }
 filetext:     { family: ui, slug: file-text }
 extlink:      { family: ui, slug: external-link }
 share:        { family: ui, slug: share-2 }
+music:        { family: ui, slug: music }
+download:     { family: ui, slug: download }
+code:         { family: ui, slug: code }

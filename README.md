@@ -16,7 +16,7 @@ Bonsai treats your bio page the same way: a quiet, well-pruned page that surface
 
 - **Single-page bio** — name, avatar, tagline, links. Nothing else.
 - **Data-driven links** — defined in `[[params.links]]`; no content files required.
-- **35 icons out of the box** — 25 brand (GitHub, Mastodon, Bluesky, X, Threads, LinkedIn, Instagram…) + 10 utility (mail, globe, rss…). Vendored from [Simple Icons](https://simpleicons.org) and [Lucide](https://lucide.dev).
+- **45 icons out of the box** — 32 brand (GitHub, Mastodon, Bluesky, X, Threads, LinkedIn, Instagram…) + 13 utility (mail, globe, rss…). Vendored from [Simple Icons](https://simpleicons.org) and [Lucide](https://lucide.dev).
 - **Light & dark mode** — respects `prefers-color-scheme`; optional toggle.
 - **Zero JavaScript by default** — pure HTML + CSS; opt-in JS for theme toggle only.
 - **Fast** — < 3 KB gzipped CSS, no web fonts (system stack), no runtime fetches.
@@ -194,6 +194,13 @@ Missing keys fall back to `en`. User content (`name`, `tagline`, `bio`, link `ti
 | `patreon` | Simple Icons |
 | `buymeacoffee` | Simple Icons |
 | `paypal` | Simple Icons |
+| `spotify` | Simple Icons |
+| `soundcloud` | Simple Icons |
+| `bandcamp` | Simple Icons |
+| `figma` | Simple Icons |
+| `dribbble` | Simple Icons |
+| `stackoverflow` | Simple Icons |
+| `itch` | Simple Icons |
 
 </details>
 
@@ -212,6 +219,9 @@ Missing keys fall back to `en`. User content (`name`, `tagline`, `bio`, link `ti
 | `filetext` | Lucide |
 | `extlink` | Lucide |
 | `share` | Lucide |
+| `music` | Lucide |
+| `download` | Lucide |
+| `code` | Lucide |
 
 </details>
 

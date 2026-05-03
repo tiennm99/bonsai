@@ -30,7 +30,8 @@ mkdir -p "${BRAND_DIR}" "${UI_DIR}"
 BRAND_ICONS=(
   github gitlab mastodon bluesky x threads linkedin instagram facebook
   tiktok youtube twitch discord telegram signal whatsapp reddit medium
-  devdotto substack hashnode kofi patreon buymeacoffee paypal
+  devdotto substack hashnode kofi patreon buymeacoffee paypal 
+  spotify soundcloud bandcamp figma dribbble stackoverflow itchdotio
 )
 
 fetch_brand() {
@@ -63,7 +64,8 @@ done
 # to normalise size and remove the class attribute (not needed for inline use).
 # ---------------------------------------------------------------------------
 UI_ICONS=(
-  mail globe link rss calendar phone map-pin file-text external-link share-2
+  mail globe link rss calendar phone map-pin file-text external-link share-2 
+  music download code
 )
 
 fetch_ui() {
